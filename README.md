@@ -2,7 +2,7 @@
 
 This repository contains some common pre-built static libraries for Apple Silicon. All libraries were tested on DTK.
 
-The .a files are universal macOS libraries that contain both arm64 and x86_64 arches.
+The .a files are universal macOS static libraries that contain both arm64 and x86_64 arches.
 
 ```
 ~ file libcrypto.a
@@ -15,11 +15,6 @@ libcrypto.a (for architecture arm64): current ar archive
 These libraries were built against Xcode 12 beta 1 for experimental usage. Use it at your own risk.
 
 ---
-
-### openssl
-
-Version: 1.1.1g
-Built with default configuration.
 
 ### openssl
 
